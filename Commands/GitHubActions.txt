@@ -1,0 +1,7 @@
+rm -rf .git
+git init
+git branch -M main
+git add .
+git commit -m "fix: authentication redirect + localStorage settings"
+git remote add origin https://github.com/mqdev1/sas_store.git
+git push -u origin main --force
